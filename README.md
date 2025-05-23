@@ -1,4 +1,4 @@
--- This is a modified version of the original UniversalSynSaveInstance from https://raw.githubusercontent.com/luau/SynSaveInstance/main/ :D
+-- This is a modified version of the original UniversalSynSaveInstance from https://raw.githubusercontent.com/luau/SynSaveInstance/main :D
 # Loadstring
 
 ```lua
@@ -8,5 +8,6 @@ local Params = {
 }
 local synsaveinstance = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
 local Options = {} -- Documentation here https://luau.github.io/UniversalSynSaveInstance/api/SynSaveInstance
-synsaveinstance(Options)
+
+pcall(synsaveinstance, Options)
 ```
