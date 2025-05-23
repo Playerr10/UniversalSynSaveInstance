@@ -7,7 +7,7 @@ local Params = {
  SSI = "saveinstance",
 }
 local synsaveinstance = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
-local Options = {} -- Documentation here https://luau.github.io/UniversalSynSaveInstance/api/SynSaveInstance
+local Options = {} -- Documentation here https://rbxlx.github.io/UniversalSynSaveInstance/api/SynSaveInstance
 
 pcall(synsaveinstance, Options)
 ```
