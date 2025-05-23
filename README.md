@@ -1,4 +1,4 @@
--- This is a modified version of the original UniversalSynSaveInstance from https://raw.githubusercontent.com/luau/SynSaveInstance/main :D
+-- This is a modified version of the original UniversalSynSaveInstance from https://raw.githubusercontent.com/luau/SynSaveInstance/main :D --
 # Loadstring
 
 ```lua
