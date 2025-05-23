@@ -3,7 +3,7 @@
 
 ```lua
 local Params = {
- RepoURL = "https://raw.githubusercontent.com/Playerr10/SynSaveInstance/main/",
+ RepoURL = "https://raw.githubusercontent.com/Playerr10/UniversalSynSaveInstance/main/",
  SSI = "saveinstance",
 }
 local synsaveinstance = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
